@@ -51,7 +51,8 @@ $config = [
                 'login' => 'site/login',
                 'user' => 'user/index',
                 'about' => 'site/about',
-                'feedback' => 'feedback/index'
+                'feedback' => 'feedback/index',
+                'price' =>  'price/index'
             ],
         ],
     
