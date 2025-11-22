@@ -6,13 +6,7 @@ use yii\widgets\ActiveForm;
 $this->title = 'Prices';
 ?>
 
-<div class="price-index">
-    <?php $form = ActiveForm::begin(['action' => ['price/index'], 'method' => 'post']);?>
-        <?= Html::input('text', 'name', "", ['placeholder' => 'Название']) ?>
-        <?= Html::input('text', 'price', "", ['placeholder' => 'Цена в месяц']) ?>
-        <?= Html::input('text', 'description', "", ['placeholder' => 'Описание']) ?>
-        <?= Html::submitButton('Добавить') ?>
-    <?php ActiveForm::end(); ?>
+
 
     <table>
         <thead>
@@ -35,5 +29,5 @@ $this->title = 'Prices';
         </tbody>      
 
     </table>
-</div>
+
 
